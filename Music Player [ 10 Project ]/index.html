@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <div class="header">
+                    <img src="Assets/less than icon.png" alt="">
+                    <img src="Assets/menu icon.png" alt="">
+                </div>
+            </header>
+
+            <main>
+                <div class="main">
+                    <img src="Assets/pexels-elina-sazonova-3971985.jpg" alt="">
+                    <h1>Ranjha</h1>
+                    <p>Luis Fansi Ft. Puerto Rican</p>
+                </div>
+            </main>
+
+            <section>
+                <audio id="song">
+                    <source src="Assets/Raanjhan Do Patti 320 Kbps.mp3" type="audio/mpeg">
+                </audio>
+                <input type="range" value="0" id="progress">
+            </section>
+
+            <footer>
+                <div class="footer">
+                    <button class="btn forw-back"><img class="images" src="Assets/previous button.png" alt="" id="backwardIcon" onclick="backward()"></button>
+                    <button class="btn play-btn pause-btn"><img class="images" src="Assets/play button.png" alt="" id="ctrlIcon"  onclick="playPause()"></button>
+                    <button class="btn forw-back"><img class="images" src="Assets/next button.png" alt="" onclick="forward()" id="forwardIcon" ></button>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+<script src="script.js"></script></body>
+</html>

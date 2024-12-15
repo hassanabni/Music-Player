@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(49, 48, 48);
+}
+.card{
+    background-color: rgb(224, 191, 207);
+    width: 100%;
+    max-width: 400px;
+    margin: 60px auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    padding: 20px;
+}
+.header img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 1.3 rgba(0, 0, 0, 0.1);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 5px 0px;
+    border: 5px solid white;
+}
+.main h1{
+    font-size: 1.3rem;
+    margin: 7px 0;
+}
+.main p{
+    font-size: 0.8rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin: 0px 10px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.forw-back{
+    height: 40px;
+    width: 40px;
+}
+.play-btn{
+    height:60px;
+    width:60px;
+}
+.pause-btn{
+    height:60px;
+    width:60px;
+}
+
+.btn .images{
+    width: 30px;
+    height: 30px;
+}
+section{
+   text-align: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+#progress{
+    -webkit-appearance: none;
+    width: 60%;
+    height: 6px;
+    background: #f53192;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 40px 0;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
